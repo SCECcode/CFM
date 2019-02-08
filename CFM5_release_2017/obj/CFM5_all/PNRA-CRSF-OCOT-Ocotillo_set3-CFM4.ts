@@ -1,0 +1,45 @@
+GOCAD TSurf 1 
+HEADER {
+name:PNRA-CRSF-OCOT-Ocotillo_set3-CFM4
+ivolmap:false
+imap:false
+border:true
+parts:false
+*solid*color:0 1 1 1
+*border*bstone:false
+*solid*specular:1 1 1 1
+*solid*ambient:0 0 0 1
+*solid*flat:false
+*border*width:2
+*border*color:0.662745 0.662745 0.662745 1
+*solid*shininess:1
+gname:false
+*solid*transparency:0
+}
+GOCAD_ORIGINAL_COORDINATE_SYSTEM
+NAME from_column
+AXIS_NAME "U" "V" "W"
+AXIS_UNIT "m" "m" "m"
+ZPOSITIVE Elevation
+END_ORIGINAL_COORDINATE_SYSTEM
+PROPERTIES is_latest
+PROP_LEGAL_RANGES **none**  **none** 
+NO_DATA_VALUES -99999 
+PROPERTY_CLASSES is_latest
+PROPERTY_KINDS unknown
+PROPERTY_SUBCLASSES QUANTITY Float
+ESIZES 1 
+UNITS none
+PROPERTY_CLASS_HEADER Z {
+is_z:on
+}
+TFACE
+PVRTX 1 597175.8359375 3615260.03125 -11230.6005859375 -99999 
+PVRTX 2 598748.828125 3619909.75 -11230.6005859375 -99999 
+PVRTX 3 597175.8359375 3615276.53125 -2065.3994140625 -99999 
+PVRTX 4 598743.25 3619909.75 -2065.3994140625 -99999 
+TRGL 3 1 2 
+TRGL 4 3 2 
+BSTONE 2 
+BORDER 5 2 1 
+END
